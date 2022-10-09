@@ -1,0 +1,128 @@
+/* global css */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ /* first section */
+ .first-section{
+    background-image: url(./img/sagar2.jpg);
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    
+    background-position:right
+ }
+ .global-btn{
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    
+
+
+ }
+ .global-btn1{
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    color: white;
+display: block;}
+    
+
+.first-section h2{
+    font-size: 80px;
+    margin: 10px 0;
+
+}
+.first-section p{
+    font-size: 20px;
+    
+}
+.global-about{
+    padding: 30px 0;
+}
+.global-heading{
+    font-size: 55px;
+    text-align: center;
+}
+.global-heading-p{
+    color: darkgrey;
+    text-align: center;
+}
+/* about me */
+.about-main-div{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.about-submit{
+    width: 500px;
+}
+.about-submit h2{
+    font-size: 33px;
+
+}
+.about-submit p{
+    color: darkgray;
+    margin: 15px 0;
+}
+/* this is a service aria */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 40px;
+    text-align: center;
+}
+/* work section */
+.img{
+    width: 300px;
+}
+/* contact section */
+.contact-hed{
+    font-size: 55px;
+    text-align: center;
+}
+form input{
+    width: 250px;
+}
+.submit{
+    width: 140px;
+    height: 25px;
+    color: white;
+    background-color: black;
+    margin-bottom: ;
+}
+form{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+form textarea{
+    width: 250px;
+
+}
+.copy{
+    background-color: black;
+    color: black;
+    font-size: 15px;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-menu ul li{
+    display: inline;
+    margin-left: 15px;
+}
+.sagar{
+    width: 300px;
+    height: 400px;
+    padding: 30px 0;padding-right: 40px;
+    padding-bottom: 70px;
+}
